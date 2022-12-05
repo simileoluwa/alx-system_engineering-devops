@@ -28,7 +28,5 @@ All i did was to spend almost 1 hour on it trying to escape all the alphanumeric
 #8. Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 Using ls -la > ls_cwd_content
 
-#9. 
-
-
-
+#9. script that duplicates the last line of the file iacta
+I appended the result to the file using "tail -n 1 >> iacta"
