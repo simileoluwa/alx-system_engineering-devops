@@ -21,3 +21,12 @@ Using head /etc/passwd
 #6. A script to display the 3rd line of a file
 A script that displays the third line of the file iacta.
 The code was "head -n 3 iacta | tail -n 1
+
+#7. Write a shell script that creates a file named exactly \*\\'"Best School"\'\#\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+All i did was to add add abackword slash before the'\)' sign
+
+#8. 
+
+
+
+
