@@ -49,7 +49,10 @@ printf "%x\n" $DECIMAL
 used tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 #16.Write a script that prints every other line from the input, starting with the first line.
-using perl -lne 'print if $. %2==1' 
+using perl -lne 'print if $. %2==1'
+
+#17. Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water STIR is in base stir. The result should be in base bestchol
+used "printf '%o\n' $((5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234))) | tr 01234567 bestchol" 
 
 
 
