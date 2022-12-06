@@ -48,7 +48,8 @@ printf "%x\n" $DECIMAL
 #15. Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 used tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
-#16. 
+#16.Write a script that prints every other line from the input, starting with the first line.
+using perl -lne 'print if $. %2==1' 
 
 
 
