@@ -39,13 +39,16 @@ echo $((2#$BINARY))
 #12. Create a script that prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z One combination per line The output should be alpha ordered, starting with aa Do not print oo Your script file should contain maximum 64 characters
 used printf %s'\n' {a..z}{a..z} | grep -v "oo"
 
-#13.i script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
+#13.Script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 printf %0.2f'\n' $NUM
 
 #14. Write a script that converts a number from base 10 to base 16.
 printf "%x\n" $DECIMAL 
 
-#15.
+#15. Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+used tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+#16. 
 
 
 
