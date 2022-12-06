@@ -16,3 +16,7 @@ using printenv
 
 #5. Create a script that lists all local variables and environment variables, and functions.
 using "set"
+
+#6. Create a script that creates a new local variable.
+#Name: BEST and Value: School
+Using BEST="School"
