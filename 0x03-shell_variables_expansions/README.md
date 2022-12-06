@@ -20,3 +20,8 @@ using "set"
 #6. Create a script that creates a new local variable.
 #Name: BEST and Value: School
 Using BEST="School"
+
+#7. Create a script that creates a global variable called BEST and Value:School
+using export BEST="School"
+
+#8.
