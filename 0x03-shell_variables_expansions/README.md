@@ -41,3 +41,11 @@ used printf %s'\n' {a..z}{a..z} | grep -v "oo"
 
 #13.i script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 printf %0.2f'\n' $NUM
+
+#14. Write a script that converts a number from base 10 to base 16.
+printf "%x\n" $DECIMAL 
+
+#15.
+
+
+
