@@ -13,3 +13,6 @@ using echo $PATH | tr ':' '\n' | wc -l
 
 #4. Create a script that lists environment variables.
 using printenv
+
+#5. Create a script that lists all local variables and environment variables, and functions.
+using "set"
