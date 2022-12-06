@@ -29,3 +29,7 @@ used echo $((TRUEKNOWLEDGE + 128))
 
 #9. Write a script that prints the result of POWER divided by DIVIDE, followed by a new line. POWER and DIVIDE are environment variables.
 used echo $((POWER/DIVIDE))
+
+#10. Write a script that displays the result of BREATH to the power LOVE
+used echo $((BREATH**LOVE))
+
